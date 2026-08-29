@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+npm-debug.log*
+implementation-hero.b64
+implementation-hero.png
