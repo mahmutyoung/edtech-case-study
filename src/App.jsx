@@ -24,8 +24,8 @@ function CaseStudy({ onPrototype }) {
   }, [activeImage]);
 
   return <>
-    <header className="site-header"><Brand /><nav aria-label="Case study navigation"><a href="#challenge">Challenge</a><a href="#approach">Approach</a><a href="#solution">Solution</a><button className="nav-cta" onClick={onPrototype}>View prototype</button></nav></header>
-    <main id="top">
+    <header className="site-header" id="top"><Brand /><nav aria-label="Case study navigation"><a href="#challenge">Challenge</a><a href="#approach">Approach</a><a href="#solution">Solution</a><button className="nav-cta" onClick={onPrototype}>View prototype</button></nav></header>
+    <main>
       <section className="portfolio-hero">
         <div className="hero-copy">
           <p className="eyebrow">Self-initiated EdTech case study</p>
